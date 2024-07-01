@@ -210,6 +210,10 @@ hr {
     margin-top: 1.5rem;
   }
 
+  #header h2 {
+    font-size: 25px;
+  }
+
   #email-container {
     width: 80%;
   }
