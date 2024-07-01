@@ -1,230 +1,234 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #ffffb549;
-    padding: 4rem 8rem;
-    font-family: serif;
+  background-color: #ffffb549;
+  padding: 4rem 8rem;
+  font-family: serif;
 }
 
 p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 main {
-    display: grid;
-    grid-template-columns: 40% 60%;
-    gap: 2rem;
-    position: relative;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 2rem;
+  position: relative;
 }
 
 img {
-    border-radius: 10px;
-    border: 2px solid #e9e8e8;
+  border-radius: 10px;
+  border: 2px solid #e9e8e8;
 }
 
 #section1 {
-    position: fixed;
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
+  position: fixed;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 #email-container {
-    background-color: #e9e9e981;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    width: 88%;
+  background-color: #e9e9e981;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  width: 88%;
 }
 
 #email-icon {
-    background-color: #ffffb5;
-    height: 2.5rem;
-    width: 2.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
+  background-color: #ffffb5;
+  height: 2.5rem;
+  width: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
 
 #email {
-    margin-left: .5rem;
+  margin-left: 0.5rem;
 }
 
 #section2 {
-    grid-column-start: 2;
-    padding: 0rem 2rem;
+  grid-column-start: 2;
+  padding: 0rem 2rem;
 }
 
 #header {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 #links-container {
-    margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 #links-container h3 {
-    margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 #links a {
-    text-decoration: none;
-    color: #444444;
+  text-decoration: none;
+  color: #444444;
 }
 
 #links a {
-    display: inline-block;
-    padding: 10px 15px;
-    background-color: #e9e8e8;
-    border-radius: 50px;
-    cursor: pointer;
-    margin-right: .8rem;
-    transition: box-shadow .2s ease-in;
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #e9e8e8;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-right: 0.8rem;
+  transition: box-shadow 0.2s ease-in;
 }
 
 #links a:hover {
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 #links {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 #datetime span {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 h2 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 h4 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 #copy h4 {
-    margin-top: .5rem;
-    margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 #datetime {
-    margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 hr {
-    border-color: #fafafa50;
+  border-color: #fafafa50;
 }
 
 .plan {
-    background-color: #ffffff;
-    padding: 1rem 2rem;
-    border-radius: 20px;
-    border: 1px solid #e9e8e8;
-    margin-bottom: 2rem;
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  border: 1px solid #e9e8e8;
+  margin-bottom: 2rem;
 }
 
 .plan-header {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .plan-header span {
-    background-color: #ffffb5;
-    height: 3rem;
-    width: 3rem;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
+  background-color: #ffffb5;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
 }
 
 .plan h3 {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 .plan p {
-    font-size: 17px;
-    margin-top: 1rem;
-    line-height: 1.45rem;
+  font-size: 17px;
+  margin-top: 1rem;
+  line-height: 1.45rem;
 }
 
 @media screen and (max-width: 1024px) {
-    body {
-        padding: 4rem
-    }
+  body {
+    padding: 4rem;
+  }
 
-    main {
-        grid-template-columns: 30% 70%;
-    }
+  main {
+    grid-template-columns: 30% 70%;
+  }
 
-    h2 {
-        font-size: 30px;
-    }
+  h2 {
+    font-size: 30px;
+  }
 }
 
 @media screen and (max-width: 912px) {
-    #email-container {
-        width: 100%;
-    }
+  #email-container {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 820px) {
-    body {
-        padding: 3rem
-    }
+  body {
+    padding: 3rem;
+  }
 
-    #email-container {
-        width: 110%;
-    }
+  #email-container {
+    width: 110%;
+  }
 }
 
 @media screen and (max-width: 550px) {
-    body {
-        padding: 1.5rem;
-    }
+  body {
+    padding: 1.5rem;
+  }
 
-    main {
-        display: block;
-    }
+  main {
+    display: block;
+  }
 
-    #section1 {
-        width: 100%;
-        position: static;
-        align-items: center;
-    }
+  #section1 {
+    width: 100%;
+    position: static;
+    align-items: center;
+  }
 
-    #section1 p {
-        text-align: center;
-    }
+  #section1 p {
+    text-align: center;
+  }
 
-    #section2 {
-        padding: 0;
-        margin-top: 1.5rem;
-    }
+  #section2 {
+    padding: 0;
+    margin-top: 1.5rem;
+  }
 
-    #email-container {
-        width: 80%;
-    }
+  #email-container {
+    width: 80%;
+  }
 
-    #links a {
-        margin-right: .5rem;
-    }
+  #links a {
+    margin-right: 0.5rem;
+  }
 
-    #links a:nth-child(3) {
-        margin-top: .5rem;
-    }
+  #links a:nth-child(3) {
+    margin-top: 0.5rem;
+  }
+
+  .plan {
+    padding: 1rem;
+  }
 }
 
 @media screen and (max-width: 370px) {
-    #email-container {
-        width: 85%;
-    }
+  #email-container {
+    width: 85%;
+  }
 }

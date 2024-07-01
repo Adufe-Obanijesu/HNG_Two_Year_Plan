@@ -1,118 +1,136 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <script src="https://kit.fontawesome.com/9382582b80.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script
+      src="https://kit.fontawesome.com/9382582b80.js"
+      crossorigin="anonymous"
+    ></script>
     <title>HNG First Task</title>
-</head>
-<body>
-    
+  </head>
+  <body>
     <main>
-        <section id="section1">
-            <img src="./assets/images/profile.png" width="200" height="200" alt="Obanijesu Adufe" data-testid="slackProfilePicture" />
+      <section id="section1">
+        <img
+          src="./assets/images/profile.png"
+          width="200"
+          height="200"
+          alt="Obanijesu Adufe"
+          data-testid="slackProfilePicture"
+        />
 
-            <h2>
-                I'm <span data-testid="slackDisplayName">
-                    Obanijesu Adufe
-                </span>
-            </h2>
+        <h2>
+          I'm <span data-testid="slackDisplayName">Obanijesu Adufe</span>
+        </h2>
 
-            <p>
-                Full Stack Software Engineer focused in Frontend Software Engineering.
-            </p>
+        <p>
+          Full Stack Software Engineer focused in Frontend Software Engineering.
+        </p>
 
-            <p id="email-container">
-                <span id="email-icon">
-                    <i class="fa-solid fa-envelope"></i>
-                </span>
-                <span id="email" data-testid="slackEmail">
-                    obanijesuadufe@gmail.com
-                </span>
-            </p>
-        </section>
+        <p id="email-container">
+          <span id="email-icon">
+            <i class="fa-solid fa-envelope"></i>
+          </span>
+          <span id="email" data-testid="slackEmail">
+            obanijesuadufe@gmail.com
+          </span>
+        </p>
+      </section>
 
-        <section id="section2">
-            <div id="header">
-                <h2>
-                    A man of vision is a man who becomes great
-                </h2>
-    
-                <div id="datetime">
-                    <span id="day" data-testid="currentDay"></span>
-                    |
-                    <span id="utc-time" data-testid="currentTimeUTC"></span>
+      <section id="section2">
+        <div id="header">
+          <h2>A man of vision is a man who becomes great</h2>
+
+          <div id="datetime">
+            <span id="day" data-testid="currentDay"></span>
+            |
+            <span id="utc-time" data-testid="currentTimeUTC"></span>
+          </div>
+        </div>
+
+        <hr />
+
+        <div id="links-container">
+          <h3>Useful Links</h3>
+
+          <div id="links">
+            <a href="https://hng.tech/learn" data-testid="hngLink">HNG Tech</a>
+
+            <a href="https://keyword.dog" data-testid="keywordLink"
+              >Keyword Dog</a
+            >
+
+            <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink"
+              >Scrape Any Web</a
+            >
+          </div>
+        </div>
+
+        <hr />
+
+        <div id="copy">
+          <h4>From Job Seeker to EdTech Pioneer: My 24-Month Roadmap</h4>
+
+          <div id="plans-container">
+            <div class="plan">
+              <div>
+                <div class="plan-header">
+                  <span>
+                    <i class="fa-solid fa-briefcase"></i>
+                  </span>
+
+                  <h3>My Frontend Career</h3>
                 </div>
+
+                <p>
+                  In the coming two years, I'm determined to land a job as a
+                  frontend software engineer. My objective is to join a company
+                  where I can contribute to real-world projects and grow as a
+                  developer. By working alongside experienced professionals, I
+                  aim to enhance my problem-solving abilities and learn industry
+                  best practices. This hands-on experience will be crucial in
+                  transforming me into a proficient developer capable of
+                  creating smooth, user-friendly web applications. I'm excited
+                  to face the challenges that come with professional development
+                  and to see my code deployed in production environments.
+                </p>
+              </div>
             </div>
 
-            <hr>
+            <div class="plan">
+              <div>
+                <div class="plan-header">
+                  <span>
+                    <i class="fa-solid fa-book-open"></i>
+                  </span>
 
-            <div id="links-container">
-                <h3>
-                    Useful Links
-                </h3>
-    
-                <div id="links">
-                        <a href="https://hng.tech/learn" data-testid="hngLink">HNG Tech</a>
-
-                        <a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a>
-
-                        <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a>
-
+                  <h3>My Vision for Free Tech Education</h3>
                 </div>
+
+                <p>
+                  Alongside my professional aspirations, I'm committed to making
+                  a positive impact on the educational landscape of my country.
+                  I envision leveraging artificial intelligence to create a
+                  free, accessible learning platform that will revolutionize how
+                  students engage with academic content. While existing
+                  platforms like Brilliant offer excellent resources, they often
+                  come with financial barriers. My goal is to develop a solution
+                  that breaks down these barriers, providing high-quality,
+                  interactive learning experiences to all students, regardless
+                  of their economic background. By combining cutting-edge
+                  technology with a passion for education, I hope to empower the
+                  next generation of learners and contribute to the overall
+                  advancement of our educational system.
+                </p>
+              </div>
             </div>
-
-            <hr>
-
-            <div id="copy">
-                <h4>
-                    From Job Seeker to EdTech Pioneer: My 24-Month Roadmap
-                </h4>
-
-                <div id="plans-container">
-                    <div class="plan">
-                        <div>
-                            <div class="plan-header">
-                                <span>
-                                    <i class="fa-solid fa-briefcase"></i>
-                                </span>
-    
-                                <h3>
-                                    My Frontend Career
-                                </h3>
-                            </div>
-                                
-                            <p>
-                                In the coming two years, I'm determined to land a job as a frontend software engineer. My objective is to join a company where I can contribute to real-world projects and grow as a developer. By working alongside experienced professionals, I aim to enhance my problem-solving abilities and learn industry best practices. This hands-on experience will be crucial in transforming me into a proficient developer capable of creating smooth, user-friendly web applications. I'm excited to face the challenges that come with professional development and to see my code deployed in production environments.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="plan">
-                        <div>
-                            <div class="plan-header">
-                                <span>
-                                    <i class="fa-solid fa-book-open"></i>
-                                </span>
-    
-                                <h3>
-                                    My Vision for Free Tech Education
-                                </h3>
-                            </div>
-                                
-                            <p>
-                                Alongside my professional aspirations, I'm committed to making a positive impact on the educational landscape of my country. I envision leveraging artificial intelligence to create a free, accessible learning platform that will revolutionize how students engage with academic content. While existing platforms like Brilliant offer excellent resources, they often come with financial barriers. My goal is to develop a solution that breaks down these barriers, providing high-quality, interactive learning experiences to all students, regardless of their economic background. By combining cutting-edge technology with a passion for education, I hope to empower the next generation of learners and contribute to the overall advancement of our educational system.
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-        </section>
+          </div>
+        </div>
+      </section>
     </main>
 
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
